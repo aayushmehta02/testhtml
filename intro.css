@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin:0;
   }
   body {
       background-color: white;
@@ -23,7 +24,8 @@
     margin-top: 0 auto;
     margin-left: 0  auto;
     height:100vh;
-    /*position:fixed: top;bottom;left;*/
+    position:relative ;
+   
     left:0;
     top:0;
     bottom:0;
@@ -33,15 +35,17 @@
   margin-left:35% ;
   display:block;
   padding:10px;
+    
 }
 #abc1
 {
   margin-left:35% ;
   border-radius:1px ;
+
 }
 #abc2{
   margin-left: 20%;
- 
+
 }
   h1 {
     font-size: 2.2em;
