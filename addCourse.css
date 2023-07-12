@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+
+
+.full_body{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+.left_coloumn{
+    
+    width: 30%;
+    background: linear-gradient(180deg, #ED1C24 0%, rgba(183, 32, 46, 0.84) 100%);
+
+}
+.right_coloumn{
+    width: 100%;
+}
+
+.logo{
+    height: 87.78%;
+    width: 60%;
+}
+.logo_img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    background: rgba(80, 105, 193, 1);
+    
+
+}
+
+.logo_wrapper{
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.name{
+    
+    padding-left: 3%;
+    font-family: "Inknut Antiqua";
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    justify-content: center;
+   
+}
+.gradeinsihgt{
+    font-size: 400%;
+    font-family: 'Source Serif 4', serif;
+    font-weight: 300;
+}
+
+.add_course{
+    position: relative;
+    top: 25%;
+    left: 50%; 
+    transform: translate(-50%,-50%);  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 7%;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+   
+    
+    
+
+}
+
+.add_course_image{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+.add_course_image:hover{
+    cursor: pointer;
+    
+}
+.addcourse_text{
+    padding-top: 7%;
+}
