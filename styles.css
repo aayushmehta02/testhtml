@@ -87,6 +87,9 @@
    
 
   }
+  ::placeholder{
+    color:black;
+  }
   .email
   {
     width:200%;
