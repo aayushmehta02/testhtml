@@ -1,8 +1,12 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
-
+@font-face {
+    font-family: "Inknut Antiqua";
+    src: url(https://fonts.google.com/?preview.size=23&query=Inknut+Antiqua);
+}
 .full_body{
     display: flex;
     flex-direction: row;
@@ -23,9 +27,19 @@
     height: 87.78%;
     width: 60%;
 }
+.logout{
+    height: 10%;
+    width: 100%;
+    padding-top:5%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    float:right;
+}
 .logo_img{
-    width: 8rem;
-    height: 8rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 10%;
     display: flex;
     justify-content: center;
@@ -42,19 +56,17 @@
     padding-top: 2%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    padding-left:5%;
+    justify-content:flex-start;
     align-items: center;
     align-content: center;
     justify-items: center;
 }
 
 .name{
-    
+    /* font-size: 110%; */
     padding-left: 3%;
     font-family: "Inknut Antiqua";
-}
-
-.name{
     display: flex;
     flex-direction: column;
     height: 10vh;
@@ -62,10 +74,12 @@
    
 }
 .gradeinsihgt{
-    font-size: 400%;
-    font-family: 'Source Serif 4', serif;
-    font-weight: 300;
+    font-size: 250%;
+    font-family: "Inknut Antiqua";
+    font-weight: 400;
+    /* line-height:150%; */
 }
+
 
 .add_course{
     position: relative;
@@ -74,8 +88,9 @@
     transform: translate(-50%,-50%);  
     display: flex;
     flex-direction: row;
+    padding-top:7%;
     justify-content: space-around;
-    padding-left: 7%;
+    padding-left: 2%;
     align-content: center;
     justify-items: center;
     align-items: center;
@@ -86,6 +101,8 @@
 }
 
 .add_course_image{
+    height:50%;
+    width:50%;
     display: flex;
     flex-direction: column  ;
     justify-content: center;
