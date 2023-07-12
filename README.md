@@ -1,3 +1,2 @@
 # testhtml
-trial
-d14-desktop 5
+use template file for the  constant page(logo+heading+red bar)
