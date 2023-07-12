@@ -78,6 +78,20 @@
       float: left;
       }
   }
+  .logo{
+    height: 87.78%;
+    width: 60%;
+}
+.logout{
+    height: 10%;
+    width: 100%;
+    padding-top:5%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    float:right;
+}
   
   /* Tablet PC view */
   @media (min-width: 768px) and (max-width: 991px) {
