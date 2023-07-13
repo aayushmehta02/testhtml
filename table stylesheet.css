@@ -103,22 +103,25 @@
     float:right;
 }
 .nav{
- width: 120%;
+ width: 105%;
+ height:7% ;
   background-color:#5069C1 ;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  margin-top:2%  ;
+  margin-top:2%;
+  overflow: hidden;
 }
 a.home{
  
   font-size:2em ;
     color: black;
     padding-left:5%;
-    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+  
    
   }
   a.table{
@@ -126,19 +129,40 @@ a.home{
     color: black;
     font-weight: bold;
       padding-left:5%;
-      width:50% ;
+      display: flex;
+    flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      justify-items: center;
+      width:60% ;
   }
   a.graph{
  
     font-size:2em ;
       color: black;
       padding-left:5%;
-    float: right;
-    width:90%
+      display: flex;
+     flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      align-content: center;
+      justify-items: center;
+  
      
     }
+    .table{
+      width:80%;
+      height:80%; 
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      align-content: center;
+      justify-items: center;
+
+    }
   .sendmail{
-    display: flex;
+    
     flex-direction: column;
     justify-content:center;
       align-items: center;
