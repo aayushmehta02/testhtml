@@ -70,8 +70,8 @@
     /* line-height:150%; */
 }
 .login{
-    margin:1%;
-    font-size:1.6em;
+    margin:5%;
+    
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -96,7 +96,7 @@
   }
   .email1
   {
-    width:190%;
+    width:200%;
   }
   .email_wrapper
   {
