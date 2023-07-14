@@ -95,6 +95,9 @@
   border: 1px solid black;
   
 }
+.img_login{
+    padding-top:2.5%;
+}
 .username_wrapper, .password_wrapper{
   width: 40%;
   display: flex;

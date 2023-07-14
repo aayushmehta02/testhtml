@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100vh;
+    height: 100lvh;
 }
 .left_coloumn{
     
@@ -37,8 +37,13 @@
     width: 60%;
 }
 .logout{
+<<<<<<< HEAD
     height: 7%;
     width: 70%;
+=======
+    height: 7.5%;
+    width: 100%;
+>>>>>>> 105ee67618d4e62a154e65f305319fb600d5dff8
     padding-top:5%;
     justify-content: center;
     align-items: center;
@@ -91,7 +96,7 @@
 }
 
 
-.add_course{
+/* .add_course{
     position: relative;
     top: 25%;
     left: 50%; 
@@ -101,10 +106,10 @@
     padding-top:7%;
     justify-content: space-around;
     padding-left: 2%;
-    align-content: center;
-    justify-items: center;
-    align-items: center;
-   
+    align-content: flex-start;
+    justify-items: flex-start;
+    align-items:flex-start;
+   float:left;
     
     
 
@@ -127,7 +132,26 @@
 }
 .addcourse_text{
     padding-top: 7%;
-}
+} */
+.addcoursebutton>button{
+       display:flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-content: center;
+       justify-items: center;
+       align-items: flex-center;
+        margin-left:5%;
+        margin-top:5%;
+        font-weight: bold;
+        padding-left:1%;
+        width: 18% ;
+        height:30% ;
+        text-align:center;
+        background-color:white;
+        font-size:1.5em ;
+        border:black solid ;
+        border-radius: 15%;
+        }
 /* Desktop PC view */
   
 @media (min-width : 992px ) {

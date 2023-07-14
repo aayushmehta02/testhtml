@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
   }
   body {
@@ -27,7 +27,7 @@
 
    /* Desktop PC view */
   
-   @media (min-width : 992px ) {
+  /* @media (min-width : 992px ) {
    
     .col-lg-4 {
       width: 33.33%;
@@ -36,7 +36,7 @@
   }
   
   /* Tablet PC view */
-  @media (min-width: 768px) and (max-width: 991px) {
+ /* @media (min-width: 768px) and (max-width: 991px) {
    
     .col-md-6 {
       width: 50%;
@@ -48,7 +48,7 @@
     }
   }
   /* Cell phone view */
-  @media (max-width: 767px)  {
+ /* @media (max-width: 767px)  {
     
     .col-sx-12 {
       float: left;
@@ -56,5 +56,5 @@
     }
   }
 
-
+ */
 
