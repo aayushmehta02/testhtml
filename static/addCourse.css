@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Inknut Antiqua";
+    src: url(https://fonts.google.com/?preview.size=23&query=Inknut+Antiqua);
+}
+.full_body{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100lvh;
+}
+.left_coloumn{
+    
+    width: 30%;
+    background: linear-gradient(180deg, #ED1C24 0%, rgba(183, 32, 46, 0.84) 100%);
+
+}
+.right_coloumn{
+    width: 100%;
+}
+.header_wrapper{
+    width: 100%;
+}
+.header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    height: 87.78%;
+    width: 60%;
+}
+.logout{
+<<<<<<< HEAD
+    height: 7%;
+    width: 70%;
+=======
+    height: 7.5%;
+    width: 100%;
+>>>>>>> 105ee67618d4e62a154e65f305319fb600d5dff8
+    padding-top:5%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    float:right;
+    cursor: pointer;
+}
+.logo_img{
+    /* width: 5rem;
+    height: 5rem; */
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    background: rgba(80, 105, 193, 1);
+    
+
+}
+
+.logo_wrapper{
+    width: 80%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    padding-left:5%;
+    justify-content:flex-start;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.name{
+    /* font-size: 110%; */
+    padding-left: 3%;
+    font-family: "Inknut Antiqua";
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    justify-content: center;
+   
+}
+.gradeinsihgt{
+    font-size: 250%;
+    font-family: "Inknut Antiqua";
+    font-weight: 400;
+    /* line-height:150%; */
+}
+
+
+.add_course{
+    position: relative;
+    top: 5%;
+    left: 50%; 
+    transform: translate(-50%,-50%);  
+    display: flex;
+    flex-direction: row;
+    padding-top:7%;
+    justify-content: space-around;
+    padding-left: 2%;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+button{
+        border-radius:10% ;
+        font-weight: bold;
+        width: 100% ;
+        height:30% ;
+        background-color:whitesmoke;
+        font-size:2em ;
+        }
+        
+/*.middle{
+    position: relative;
+    top:20%;
+    left: 50%; 
+    transform: translate(-50%,-50%);  
+    display: flex;
+    flex-direction: row;
+    padding-top:7%;
+    justify-content: space-around;
+    padding-left: 2%;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+font-size: 2em;
+color:darkgray ;
+font-weight:900 ;
+}*/
+/* Desktop PC view */
+  
+@media (min-width : 992px ) {
+   
+    .col-lg-4 {
+      width: 33.33%;
+      float: left;
+      }
+  }
+  
+  /* Tablet PC view */
+  @media (min-width: 768px) and (max-width: 991px) {
+   
+    .col-md-6 {
+      width: 50%;
+      float: left;
+    }
+    .col-md-12 {
+      width: 100%;
+      float: left;
+    }
+  }
+  /* Cell phone view */
+  @media (max-width: 767px)  {
+    
+    .col-sx-12 {
+      float: left;
+      width: 100%;
+    }
+  }
