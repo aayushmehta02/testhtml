@@ -74,7 +74,7 @@
 
 .login_wrapper{
   width: 100%;
-  height: 70vh;
+  height: 71%;
   position: relative;
   top: 50%;
   left: 50%; 
@@ -99,9 +99,13 @@
     padding-top:2.5%;
 }
 .username_wrapper, .password_wrapper{
-  width: 40%;
+  width: 100%;
+  padding-bottom: 4%;
   display: flex;
   align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
 .password_wrapper{
   padding-top: 2%;
@@ -110,7 +114,7 @@
   background: rgb(91, 146, 200);
   height: 8vh;
   border-radius: 7px;
-  width: 150%;
+  width: 25rem;
   font-size: large;
 }
 .login_to_acc{
@@ -122,15 +126,18 @@
   cursor: pointer;
   text-decoration: underline;
 }
-
+.forget_password{
+  padding-bottom: 5%;
+}
 .sign_in{
-  width: 25%;
+  width: 70%;
   background: rgb(91, 146, 200);
   height: 8vh;
   border-radius: 7px;
   font-family: 'Source Serif 4', serif;
   cursor: pointer;
   font-size: large;
+  
 }
 ::placeholder{
   color: black;
@@ -141,8 +148,7 @@
 .far{
   position: absolute;
  
-  top: 50%;
-  right: 5%;  
+  right: 7%;
   cursor: pointer;
   
 }
@@ -153,4 +159,13 @@
   position: relative;
 }
 
-
+.form_wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  margin: 0;
+}

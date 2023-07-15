@@ -22,24 +22,39 @@
 .right_coloumn{
     width: 100%;
 }
-
+.header_wrapper{
+    width: 100%;
+}
+.header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .logo{
     height: 87.78%;
     width: 60%;
 }
 .logout{
+<<<<<<< HEAD
+    height: 7%;
+    width: 70%;
+=======
     height: 7.5%;
     width: 100%;
+>>>>>>> 105ee67618d4e62a154e65f305319fb600d5dff8
     padding-top:5%;
     justify-content: center;
     align-items: center;
     align-content: center;
     justify-items: center;
     float:right;
+    cursor: pointer;
 }
 .logo_img{
-    width: 5rem;
-    height: 5rem;
+    /* width: 5rem;
+    height: 5rem; */
     border-radius: 10%;
     display: flex;
     justify-content: center;
@@ -52,7 +67,7 @@
 }
 
 .logo_wrapper{
-    width: 100%;
+    width: 80%;
     padding-top: 2%;
     display: flex;
     flex-direction: row;
