@@ -78,30 +78,58 @@
     font-family: "Inknut Antiqua";
     font-weight: 400;
 }
+.placement_wrapper{
+    width:100%;
+
+}
 .placement{
+    
+    
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-items: flex-start;
     font-size:1em ;
     color: black;
 
+
 }
-#browsefile{
+button{
+    border-radius:2rem ;
+    font-weight: bold;
+    width: 15rem ;
+    height: 4rem;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-color:whitesmoke;
+    font-size:1.8em ;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow:2px 2px;
+}
+
+.browsefile{
+    margin-left:5%;
+    margin-top:0%;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items:flex-start;
+    align-items: flex-start;
     align-content: flex-start;
     justify-items: flex-start;
-       }
-#uploadbutton{
-     
+ }
+.uploadbutton{
+    margin-left:5%;
+    margin-top:0%;
     display: flex;
-    flex-direction:row;
-    clear: left;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-items: flex-end;
+  
 }
 /* Desktop PC view */
   

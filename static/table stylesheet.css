@@ -185,16 +185,17 @@ a.home{
     border:black solid ;
     }
     #upload{
- width:30% ;
+ width:25% ;
       height:7% ;
-      margin-top:2% ;
-      margin-left:7% ;
+      margin-top:5% ;
+      margin-left:6% ;
       background-color:whitesmoke;
       border:black solid ;
       font-size:1.5em ;
       font-weight: bold;
       border-radius:5% ;
       letter-spacing:2% ;
+      box-shadow:2px 2px;
     }
 
 
