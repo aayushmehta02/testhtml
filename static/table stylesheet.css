@@ -78,7 +78,7 @@
     font-size: 250%;
     font-family: "Inknut Antiqua";
     font-weight: 400;
-    /* line-height:150%; */
+  
 }
    /* Desktop PC view */
   
@@ -117,7 +117,7 @@ a.home{
   font-size:2em ;
     color: black;
     padding-left:5%;
-    font-weight:700;
+    font-weight:bolder;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -127,7 +127,7 @@ a.home{
   
    
   }
-  a.table{
+  a.tableform{
     font-size:2em ;
     color: black;
     font-weight: bolder;
@@ -139,11 +139,12 @@ a.home{
       align-content: center;
       justify-items: center;
       width:60% ;
+      
   }
   a.graph{
  
     font-size:2em ;
-    font-weight: 700;
+    font-weight:bolder;
       color: black;
       padding-left:5%;
       display: flex;
@@ -155,7 +156,7 @@ a.home{
   
      
     }
-    .table{
+   .table{
       display: flex;
       flex-direction: column;
       justify-content:center;
@@ -164,13 +165,17 @@ a.home{
       justify-items: center;
 
     }
+    a:hover , a:active{
+      color: aliceblue;
+    }
   .sendmail{
    
    position: absolute;
     top:95lvh;
     right:0%;
   }
-  button{
+
+  #mail{
     border-radius:10% ;
     font-weight: bold;
     width: 100% ;
@@ -179,8 +184,20 @@ a.home{
     font-size:1.5em ;
     border:black solid ;
     }
+    #upload{
+ width:30% ;
+      height:7% ;
+      margin-top:2% ;
+      margin-left:7% ;
+      background-color:whitesmoke;
+      border:black solid ;
+      font-size:1.5em ;
+      font-weight: bold;
+      border-radius:5% ;
+      letter-spacing:2% ;
+    }
 
-     
+
   
   /* Tablet PC view */
   @media (min-width: 768px) and (max-width: 991px) {
