@@ -106,13 +106,25 @@
     align-items: center;
 }
 button{
-        border-radius:10% ;
-        font-weight: bold;
-        width: 100% ;
-        height:30% ;
-        background-color:whitesmoke;
-        font-size:2em ;
-        }
+    border-radius:5rem ;
+    font-weight: bold;
+    width: 200% ;
+    height: 5rem;
+    background-color:whitesmoke;
+    font-size:2em ;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.addcoursebutton{
+    height: 150%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+} 
         
 .middle{
     position: relative;
