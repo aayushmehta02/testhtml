@@ -37,13 +37,8 @@
     width: 60%;
 }
 .logout{
-<<<<<<< HEAD
-    height: 7%;
-    width: 70%;
-=======
     height: 7.5%;
     width: 100%;
->>>>>>> 105ee67618d4e62a154e65f305319fb600d5dff8
     padding-top:5%;
     justify-content: center;
     align-items: center;
@@ -119,7 +114,7 @@ button{
         font-size:2em ;
         }
         
-/*.middle{
+.middle{
     position: relative;
     top:20%;
     left: 50%; 
@@ -135,7 +130,7 @@ button{
 font-size: 2em;
 color:darkgray ;
 font-weight:900 ;
-}*/
+}
 /* Desktop PC view */
   
 @media (min-width : 992px ) {
