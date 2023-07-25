@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100lvh;
+    height: 100vh;
 }
 .left_coloumn{
     
@@ -176,3 +176,144 @@ button{
       width: 100%;
     }
   }
+
+
+
+.courses{
+    width: 100%;
+    max-height: fit-content;
+    padding: 1%;
+    background-color: antiquewhite;
+}
+
+.hidden{
+    display: none;
+}
+
+.course1{
+    min-width: 15%;
+    max-width: 20%;
+    height: 7em;
+    background-color: blue;
+    border-radius: 1em;
+    position: relative;
+}
+
+.dots{
+    position: absolute;
+    top: 4%;
+    right: 1%;
+    line-height: 0.5em;
+    
+}
+.dots:hover{
+    visibility: visible;
+    cursor: pointer;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    margin-top: 60px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown a:hover {
+    background-color: #f1f1f1;
+}
+  
+.show {
+    display: block;
+}
+.text_content_wrapper{
+    height: 7em;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.text_content{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    height: 5em;
+    text-decoration: underline;
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.courseclick:hover{
+    cursor: pointer;
+}
+
+
+.addcourse_form_wrapper{
+    
+    display: none;
+}
+.addcourse_form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+.course_name, .year{
+    width: 100%;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+input{
+    border: 1px solid black;
+}
+.submit{
+    height: 5vh;
+    width: 70%;
+    cursor: pointer;
+    font-size: 1em;
+    
+}
+
+.show{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 25vh;
+    background-color: aliceblue;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
