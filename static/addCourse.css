@@ -268,20 +268,8 @@ button{
 
 
 .addcourse_form_wrapper{
-    width: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 25vh;
-    background-color: aliceblue;
-    border-radius: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
+    
+    display: none;
 }
 .addcourse_form{
     
@@ -302,9 +290,30 @@ button{
     justify-items: center;
     align-content: center;
 }
-
+input{
+    border: 1px solid black;
+}
 .submit{
     height: 5vh;
-    width: 90%;
+    width: 70%;
     cursor: pointer;
+    font-size: 1em;
+    
+}
+
+.show{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 25vh;
+    background-color: aliceblue;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
 }
