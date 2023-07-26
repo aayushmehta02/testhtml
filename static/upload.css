@@ -21,6 +21,7 @@
 }
 .right_coloumn{
     width: 100%;
+    position: relative;
 }
 
 .logo{
@@ -101,7 +102,7 @@ button{
     font-weight: bold;
     width: 15rem ;
     height: 4rem;
-    margin-top: 10%;
+    margin-top: 45%;
     margin-left: 5%;
     background-color:whitesmoke;
     font-size:1.8em ;
@@ -111,8 +112,9 @@ button{
 }
 
 .browsefile{
-    margin-left:5%;
-    margin-top:0%;
+    position:absolute;
+    top:15%;
+    left:5%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -121,8 +123,10 @@ button{
     justify-items: flex-start;
  }
 .uploadbutton{
-    margin-left:5%;
-    margin-top:0%;
+  
+    position:absolute;
+    top:15%;
+    right:0;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
