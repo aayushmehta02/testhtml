@@ -11,7 +11,7 @@ sample_data = [
 
 @app.route("/")
 def index():
-    return render_template("index.html", sample_data=sample_data)
+    return render_template("table.html", sample_data=sample_data)
 
 if __name__ == "__main__":
     app.run(debug=True)
