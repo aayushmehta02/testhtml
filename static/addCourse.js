@@ -29,6 +29,17 @@ function addingcourses(){
     })
 }
 addingcourses()
+if(addingcourses()){
+    function closeAddCourseTab(){
+        const full_body = document.querySelectorAll('.full_body')
+        full_body.forEach()
+        full_body.addEventListener("click", ()=>{
+            addCourse_wrapper.classList.remove("show")
+        })
+        
+    }
+    closeAddCourseTab()
+}
 
 
 function takeCourseInput(){
