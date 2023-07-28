@@ -1,1 +1,5 @@
 YOU HAVE NOT UPLOADED ANY FILE 
+if no pwd is entered and user wants to sign in
+no username/password entered
+wrong file type
+give name to folder  like for am-1 n class name
