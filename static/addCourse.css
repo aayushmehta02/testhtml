@@ -12,6 +12,7 @@
     flex-direction: row;
     width: 100%;
     height: 100vh;
+    z-index: 1;
 }
 .left_coloumn{
     
@@ -184,6 +185,11 @@ button{
     max-height: fit-content;
     padding: 1%;
     background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    padding: 10px; 
+     
 }
 
 .hidden{
@@ -191,18 +197,19 @@ button{
 }
 
 .course1{
-    min-width: 15%;
-    max-width: 20%;
-    height: 7em;
+    min-width: 10%;
+    max-width: 80%;
+    
+    height: 10em;
     background-color: blue;
     border-radius: 1em;
     position: relative;
-    position: relative;
+    
 }
 
 .dots{
     position: absolute;
-    top: 4%;
+    top: 5%;
     right: 1%;
     line-height: 0.5em;
     
@@ -314,7 +321,7 @@ input{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-30%,-50%);
     height: 25vh;
     background-color: aliceblue;
     border-radius: 2em;
@@ -324,6 +331,13 @@ input{
     align-items: center;
     justify-items: center;
     align-content: center;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
-
+.blur{
+    filter: blur(2px);
+}
