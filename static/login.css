@@ -70,8 +70,6 @@
     
 }
 
-
-
 .login_wrapper{
   width: 100%;
   height: 71%;
@@ -137,6 +135,7 @@
   font-family: 'Source Serif 4', serif;
   cursor: pointer;
   font-size: large;
+  margin-bottom:5%;
   
 }
 ::placeholder{
