@@ -39,22 +39,29 @@ addingcourses()
 function submitFields(){
     submit.addEventListener("click",()=>{
         addCourse_wrapper.classList.remove("show")
-        takeCourseInput()
-        takeYearInput()
         removeText()
-        count++
-        createNewCourse()
+        
+        
+        
         console.log(count)
     })
 
 }
 submitFields()
+
+
+
 function removeText(){
     const text = document.querySelector('.middle')
-    
-    if(course_name_input.value=="" && year_input.value==""){
+    console.log(course_name_input.value)
+    console.log(year_input.value)
+    if(course_name_input.value!="" && year_input.value!=""){
         console.log("done")
         text.classList.add("hidden")
+        takeCourseInput()
+        takeYearInput()
+        count++
+        createNewCourse()
         blur()
     }else{
         alert("PLEASE ENTER COURSE NAME OR CLASS!!")
@@ -89,13 +96,13 @@ function threeDots(){
 
 
 function createNewCourse(){
-   if(count==1){
-    
-    allCourses.classList.remove("hidden")
-   }
-   else{
+   
+   
     const deepCopy = perCourse.cloneNode(true);
+    deepCopy.classList.remove("sample_course")
     deepCopy.classList.add("course1")
+    deepCopy.classList.add("newclass")
+    
     
    
     takeCourseInput()
@@ -107,7 +114,7 @@ function createNewCourse(){
 
 
 
-   }
+   
    
 }
 
