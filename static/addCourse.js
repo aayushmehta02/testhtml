@@ -67,14 +67,14 @@ function removeText(){
 
 function takeCourseInput(){
  
-    course_name_output.innerText = course_name_input.value
+    course_name_output.innerText = course_name_input.value.toUpperCase()
     console.log(course_name_input.value)
     course_name_input.value=""
 }
 
 function takeYearInput(){
    
-    year_output.innerText = year_input.value
+    year_output.innerText = year_input.value.toUpperCase()
     console.log(year_input.value)
     year_input.value=""
 }
@@ -90,16 +90,14 @@ function threeDots(){
 
 function createNewCourse(){
    if(count==1){
-    console.log("sorted")
+    
     allCourses.classList.remove("hidden")
    }
    else{
     const deepCopy = perCourse.cloneNode(true);
     deepCopy.classList.add("course1")
-    const deep_course_name_output= deepCopy.querySelector('h4')
-    const deep_year_output = deepCopy.querySelector('h5')
-    // deep_course_name_output.innerText= course_name_input.value
-    // deep_year_output.innerText = year_input.value
+    
+   
     takeCourseInput()
     takeYearInput()
     allCourses.appendChild(deepCopy);
