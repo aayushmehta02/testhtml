@@ -235,4 +235,10 @@ a.home{
       float: left;
       width: 100%;
     }
+    .upload{
+      display:none;
+    }
+    .name{
+      font-size:50%;
+    }
   }
