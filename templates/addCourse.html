@@ -15,7 +15,7 @@
         <div class="left_coloumn">
 
         </div>
-        <div class="right_coloumn"  onclick="closeAddCourseTab()">
+        <div class="right_coloumn"  >
             <div class="header_wrapper">
                 <div class="header">
                     <div class="logo_wrapper">
@@ -42,54 +42,49 @@
                 <button type="submit" class="courseclick">Add a course</button>
             </div>
             
-            <div class="middle hidden">
+            <div class="middle">
                 You have not added any course yet !!
             </div> 
-            <div class="courses">
-                <div class="diffcourses">
+            <div class="courses hidden">
+                
                     <div class="course1">
                         <div class="dots">
                             <li></li>
                             <li></li>
                             <li></li>
                         </div>
-                        <div class="dropdown">
-                            <div id="myDropdown" class="dropdown-content">
-                                <a href="#home">EDIT</a>
-                                <a href="#about">REMOVE</a>
-                            </div>
-                        </div>
-                            
-                        
-                        
                         <div class="text_context_wrapper">
                             <div class="text_content">
                                 <h4 class="course_name_output"></h4><br>
-                                <h4 class="year_output"></h4>
+                                <h5 class="year_output"></h5>
                             </div>
                         </div>
-                            
-                           
-                       
+                        <div class="dropdown">
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#home">RENAME</a>
+                                <a href="#about">REMOVE</a>
+                            </div>
+                        </div> 
                         
                     </div>
-                </div>
+                
             </div>
-            <div class="addcourse_form_wrapper ">
-                <div class="addcourse_form">
-                    <div class="course_name">
-                        <H3 >COURSE: <input type="text" class="course_name_input"></H3>
-                    </div>
-                    <div class="year">
-                        <H3>YEAR: <input type="text" class="year_input"></H3>
-                    </div>
-                    <div class="submit">
-                        <button class="submit">SUBMIT</button>
-                    </div>
+            
+            
+        </div>
+        <div class="addcourse_form_wrapper ">
+            <div class="addcourse_form">
+                <div class="course_name">
+                    <H3 > <input type="text" class="course_name_input" placeholder="COURSE NAME"></H3>
+                </div>
+                <div class="year">
+                    <H3> <input type="text" class="year_input" placeholder="CLASS"></H3>
+                </div>
+                <div class="submit">
+                    <button class="submit">SUBMIT</button>
                 </div>
             </div>
         </div>
-        
        
         
     </div>
