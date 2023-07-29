@@ -134,9 +134,9 @@ button{
         
 .middle{
     position: relative;
-    top:10%;
+    top: 50%;
     left: 50%; 
-    transform: translate(-50%,-50%);  
+    transform: translate(-50%,0);  
     display: flex;
     flex-direction: row;
     padding-top:7%;
@@ -293,48 +293,65 @@ button{
 .addcourse_form_wrapper{
     
     display: none;
+
 }
 .addcourse_form{
-    
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-items: center;
     align-content: center;
+    
 }
 .course_name, .year{
-    width: 100%;
     
-    padding-bottom: 1em;
+    
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     justify-items: center;
     align-content: center;
+    padding-bottom: 5%;
 }
 input{
     border: 1px solid black;
-    height: 2em;
+    height: 3em;
     padding-left: 1em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-anchor: middle;
+    
+    width: 30%;
 }
 .submit{
     height: 5vh;
-    width: 70%;
+    width: 60%;
     cursor: pointer;
     font-size: 1em;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+    align-content: center;
     
 }
 
 .show{
-    width: 50%;
+    width: 30%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-30%,-50%);
-    height: 30vh;
-    background-color: aliceblue;
+    height: 40vh;
+    background-color: rgba(8, 42, 94, 1);
+
     border-radius: 2em;
     display: flex;
     flex-direction: column;
@@ -342,13 +359,41 @@ input{
     align-items: center;
     justify-items: center;
     align-content: center;
-    background-color: #f9f9f9;
+   
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border: 1px solid black;
+    
 }
 
 .blur{
     filter: blur(2px);
+}
+.newclass{
+    display: block !important;
+
+}
+.sample_course{
+    display: none;
+}
+
+.course_name_input, .year_input{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+h3{
+    width: 150%;
+}
+
+.course_name, .year{
+    width: 80%;
 }
