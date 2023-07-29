@@ -102,7 +102,7 @@
 
 }
 .placement{
-    
+    margin-left:4%;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -115,16 +115,22 @@
 button{
     border-radius:2rem ;
     font-weight: bold;
-    width: 120%;
+    width: 150%;
     height: 4rem;
     background-color:whitesmoke;
     font-size:1.8em ;
     padding-left: 1%;
     padding-right: 1%;
     box-shadow:2px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .browsefile{
+    width:150%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -132,15 +138,23 @@ button{
     align-content: flex-start;
     justify-items: flex-start;
  }
+ #bf
+ {
+ height: 300%;
+ font-size:200%;
+ }
 .uploadbutton{
+    width:25%;
+    margin-right:5%;
     padding-left: 2%;
     padding-right: 2%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     align-content: flex-end;
     justify-items: flex-end;
+    
   
 }
 /* Desktop PC view */
@@ -172,4 +186,15 @@ button{
       float: left;
       width: 100%;
     }
+    .header_wrapper{
+        font-size:50%;
+      }
+      .logo_img{
+        width:50%;
+        height:80%;
+      }
+      .placement_wrapper{
+        font-size:50%;
+        width:75%;
+      }
   }
