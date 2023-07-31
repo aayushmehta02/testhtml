@@ -9,9 +9,11 @@ const left_coloumn = document.querySelector('.left_coloumn')
 const dots = document.querySelectorAll('.dots')
 const year_input =document.querySelector('.year_input')
 const year_output = document.querySelector('.year_output')
-const perCourse = document.querySelector('.course1')
+const perCourse = document.getElementById('course1')
+const one_course = document.querySelectorAll('.course1')
 const everyCourse = document.querySelectorAll('.courses')
 let count = 0
+const trash = document.querySelectorAll('.trash')
 Number(count)
 
 
@@ -95,6 +97,27 @@ function createNewCourse(){
     const deepCopy = perCourse.cloneNode(true);
     deepCopy.classList.remove("sample_course")
     deepCopy.classList.add("course1")
+    // everyCourse.forEach(course=>{
+    //     course.addEventListener("click", (e)=>{
+    //         const souce = e.target
+    
+          
+            
+    //         souce.addEventListener("click", (event)=>{
+    //            allCourses.removeChild(deepCopy)
+    //         })
+            
+    //     })
+    // })
+
+    trash.forEach(button =>{
+        button.addEventListener("click", (e)=>{
+            const buttonPiece = e.target
+            console.log(buttonPiece.innerText)
+        })
+    })
+
+
     deepCopy.classList.add("newclass")
     
     
@@ -108,7 +131,7 @@ function createNewCourse(){
 
 
 
-   
+    
    
 }
 
@@ -139,9 +162,3 @@ const newclass = document.querySelector('.newclass')
 //   });
 
 
-everyCourse.forEach(course=>{
-    course.addEventListener("mouseover", (e)=>{
-        var souce = e.target
-        console.log(souce.innerText)
-    })
-})
