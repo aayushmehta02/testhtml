@@ -88,17 +88,24 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgb(245, 237, 226);
   align-items: center;
-  border: 1px solid black;
+
   
 }
 .img_login{
-    padding-top:2.5%;
+    padding-top:2%;
+    width:60%;
+    height:60%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
 }
 .username_wrapper, .password_wrapper{
   width: 90%;
-  padding-bottom: 4%;
+  padding-bottom: 6%;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -109,7 +116,7 @@
   padding-top: 2%;
 }
 .username, .password{
-  background: rgb(91, 146, 200);
+  background: white;
   height: 8vh;
   border-radius: 7px;
   width: 25rem;
@@ -117,6 +124,8 @@
 }
 .login_to_acc{
   font-size: 250%;
+  padding-top: 2%;
+  padding-bottom: 4%;
   font-family: 'Source Serif 4', serif;
 }
 
@@ -134,7 +143,7 @@
   border-radius: 7px;
   font-family: 'Source Serif 4', serif;
   cursor: pointer;
-  font-size: large;
+  font-size: xx-large;
   margin-bottom:5%;
   
 }
