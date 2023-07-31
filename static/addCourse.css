@@ -176,6 +176,7 @@ button{
       float: left;
       width: 100%;
     }
+    
   }
 
 
@@ -396,4 +397,10 @@ h3{
 
 .course_name, .year{
     width: 80%;
+}
+
+.trash{
+    width: 30%;
+    height: 30%;
+    background-color: rgb(82, 75, 208);
 }
