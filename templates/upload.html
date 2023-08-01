@@ -34,13 +34,20 @@
             </div>
             <div class="placement_wrapper">
               <div class="placement">
-            
-                <div class="broswefile"> 
-                      <input id="bf" type="file" name="Browse Files" placeholder="Browse Files"> 
-                </div> 
-                <div class="uploadbutton">
-                     <button type="submit" >Upload</button>
-                </div>
+
+                <!-- <form action="/fileupload" class="dropzone"> -->
+                    <form action = "/fileupload/{{course_id}}" method = "post" enctype="multipart/form-data">  
+                        
+                     
+                        <div class="broswefile"> 
+                            <input id="bf" type="file" name="Browse Files" placeholder="Browse Files"> 
+                        </div> 
+                   
+                    <div class="uploadbutton">
+                        <button type="submit" >Upload</button>
+                    </div>
+                 </form>    
+                <!-- </form> -->
               </div>
             </div>
         </div>
